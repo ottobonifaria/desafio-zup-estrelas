@@ -1,7 +1,7 @@
 body { 
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(153, 243, 51);
+    background-color: rgb(186, 238, 128);
 }
 
 .cabecalho {
@@ -24,7 +24,7 @@ body {
 
 .container > .card {
     display: inline-block;
-    background-color: #4f86dd;
+    background-color: #27497e;
     width: 20%;
     margin: 1em 2% 1em 0;
 }

@@ -22,10 +22,10 @@ const incluirNovoCard = (data) => {
     container.innerHTML +=  `<div class="card">
                                 <img src="` + data.image + `">
                                 <table>
-                                    <tr><td><strong>Nome:</strong></td><td><b style="color:black" >`+ data.name + `</b></td></tr>
-                                    <tr><td><strong>Status:</strong></td><td><b style="color:black" >`+ data.status + `</b></td></tr>
-                                    <tr><td><strong>Espécie:</strong></td><td><b style="color:black" >`+ data.species + `</b></td></tr>
-                                    <tr><td><strong>Gênero:</strong></td><td><b style="color:black" >`+ data.gender + `</b></td></tr>
+                                    <tr><td><strong>Nome:</strong></td><td><b>`+ data.name + `</b></td></tr>
+                                    <tr><td><strong>Status:</strong></td><td><b>`+ data.status + `</b></td></tr>
+                                    <tr><td><strong>Espécie:</strong></td><td><b>`+ data.species + `</b></td></tr>
+                                    <tr><td><strong>Gênero:</strong></td><td><b>`+ data.gender + `</b></td></tr>
                                 </table>
                             </div>`;
 }
