@@ -1,12 +1,13 @@
 body { 
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(186, 238, 128);
+    background-color: white;
 }
 
 .cabecalho {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    background-color: rgb(186, 238, 128);
 }
 
 .cabecalho > h1, p {
@@ -17,14 +18,15 @@ body {
     display: flex;
     box-sizing: border-box;
     margin: 0;
-    padding: 0 0 0 4%;
+    padding: 0 0 10% 4%;
     width: 100%;
     justify-content: center;
+    background-color: rgb(186, 238, 128);
 }
 
 .container > .card {
     display: inline-block;
-    background-color: #27497e;
+    background-color: #055b72;
     width: 20%;
     margin: 1em 2% 1em 0;
 }
@@ -36,9 +38,9 @@ body {
 
 table {
     width: 100%;
-    border-top: solid 4px rgb(115, 247, 98);
+    border-top: solid 4px rgb(2 177 200);
     color: white;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .footer {
@@ -47,8 +49,8 @@ table {
     width: 100%;
     text-align: center;
     border-top: solid 1px black;
-    margin-top: 1em;
-    padding-top: 2px;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
 }
