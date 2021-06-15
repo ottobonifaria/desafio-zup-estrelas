@@ -1,4 +1,4 @@
-container = document.querySelector('.container');
+container = document.querySelector('.container');   
 
 /* Fixa o numero maximo de personagens possíveis*/
 const numeroMaximoDePersonagens = 671;
