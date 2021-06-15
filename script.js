@@ -1,3 +1,5 @@
+/* Finalizado o Desafio*/
+
 container = document.querySelector('.container');   
 
 /* Fixa o numero maximo de personagens possíveis*/
